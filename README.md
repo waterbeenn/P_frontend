@@ -4,10 +4,10 @@
 2. 2025.09.02 구현한 것
 구조
 - header/main/footer 시맨틱 영역 사용
-- 각 페이지에 <title>과 <h1> 존재
+- 각 페이지에 'title'태그와 'h1' 태그 존재
 
 폼/접근성
-- 모든 input에 연결된 <label> 존재(클릭 시 포커스)
+- 모든 input에 연결된 'label'태그 존재(클릭 시 포커스)
 - required로 브라우저 기본 검증 동작
 - 이메일은 type="email"
 
