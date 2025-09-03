@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>회원가입</title>
+    <link rel="stylesheet" href="styles/base.css">
+</head>
+
+<body>
+    <header>
+        <h1>회원가입</h1>
+        <nav>
+            <ul>
+                <li><a href="login.html">로그인</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main role="main">
+        <div class="signup-form">
+            <form name="signup" action="signup_check.html" method="post" autocomplete="on">
+                <div class="signup-box">
+                    <label for="user-id">아이디</label>
+                    <input type="email" name="email" id="user-id" required autocomplete="email"><br>
+                    <label for="user-pw">패스워드</label>
+                    <input type="password" name="password" id="user-pw" required autocomplete="new-password"
+                        aria-describedby="passwordHelp"><br>
+                    <p class="help" id="passwordHelp">8자 이상 입력해주세요.</p>
+                    <label for="user-pw-confirm">패스워드 확인</label>
+                    <input type="password" name="passwordConfirm" id="user-pw-confirm" required
+                        autocomplete="new-password"><br>
+                    <br>
+                    <button type="submit">회원가입</button>
+                </div>
+            </form>
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+
+</html>
